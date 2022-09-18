@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.navbutton{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin: 10px;
+    
+    
+}
+#share{
+    float: right;
+}
+#back{
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: bold;
+}
+.doctor{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+
+
+}
+#doctdes{
+    font-size: medium;    
+     font-family: 'Reem Kufi Ink', sans-serif;
+     margin: 10px;
+     margin-left: 190px;
+}
+
+   
+  
+
+#doctorinfo{
+    color: rgb(105, 105, 110);
+    margin-top: 10px;
+    font-family: 'Reem Kufi Ink', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.col{
+   
+    width: 100%;
+    display:flex;
+    font-family: 'Reem Kufi Fun', sans-serif;
+    font-weight: bold;
+}
+.row{
+
+    height: 150px;
+    margin: 10px;
+    flex: 33.33%;
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color: rgb(241, 241, 239);
+    border-radius: 26px;
+
+}
+#bookbutton{
+    margin: 30px;
+    width: 900px;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(81, 87, 139);
+    cursor: pointer;
+    font-weight: bold;
+}
